@@ -38,4 +38,5 @@ setup(
     packages=["mytest_multiply"],
     include_package_data=True,
     install_requires=["numpy"],
+    package_data={"mytest_multiply": ["multiplication.pyi", "py.typed"]},
 )
